@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="SearchCustomer(failed)">
+    <parameter name="AppUrl" value="http://brijb05:8083/Demo/DOXCOM.html"/>
+    <parameter name="BrowserToOpen" value="chrome"/>
+    <classes>
+      <class name="com.training.tests.SearchCustomer">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="automationSetup"/>
+          <include name="verify"/>
+          <include name="BeforeSuite"/>
+          <include name="automationTeardown"/>
+        </methods>
+      </class> <!-- com.training.tests.SearchCustomer -->
+    </classes>
+  </test> <!-- SearchCustomer(failed) -->
+</suite> <!-- Failed suite [Suite] -->
