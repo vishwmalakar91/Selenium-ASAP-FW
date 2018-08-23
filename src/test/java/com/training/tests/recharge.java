@@ -15,7 +15,7 @@ public class recharge extends MyTestNGBaseClass {
 	public void getData ()
 	{
 		
-		dictionary=oData.fGetData(AutomationConstants.testDataPath + "Calendar.xlsx", "SearchCustomer");
+		dictionary=oData.fGetData(AutomationConstants.testDataPath + "Calendar.xlsx", "Recharge");
 		
 	}
 
