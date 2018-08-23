@@ -9,23 +9,23 @@ import AutoHackathon.Project.DataDriver;
 import AutoHackathon.Project.DataDriver.HashMapNew;
 import AutoHackathon.Project.MyTestNGBaseClass;
 
-public class SearchCustomer extends MyTestNGBaseClass {
+public class recharge extends MyTestNGBaseClass {
 	DataDriver oData = new DataDriver();
 	HashMapNew dictionary;
 	public void getData ()
 	{
 		
 		dictionary=oData.fGetData(AutomationConstants.testDataPath + "Calendar.xlsx", "SearchCustomer");
+		
 	}
 
 	@Test
 	public void verify () {
 		getData ();
-		oExtentTest = oExtentReport.startTest("SearchCustomer");
+		oExtentTest = oExtentReport.startTest("Recharge with Cash");
 		DoxComLandingPage obj= new DoxComLandingPage(oDriver, oExtentReport, oExtentTest, dictionary);
 		obj.fCheckHomepage();
 		obj.fSearchCustomer();
 		obj.frecharge();
-		
 	}
 }

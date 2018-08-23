@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -25,6 +26,10 @@ public class DoxComLandingPage {
 	By inpCustID = By.id("CustID");
 	By btnSearch= By.id("OpenButton");
 	By custDetails= By.xpath("//h4");
+	By RechargeButton = By.id("RechargeButton");
+	By Amount=By.id("Amount");
+	By Pmp_dd= By.id("PaymentType");
+	By submit_recharge=By.id("submitButton");
 	
 	
 	
@@ -79,10 +84,21 @@ public class DoxComLandingPage {
 	 oExtentTest.log(LogStatus.FAIL,"Failed to perform Search Customer");
 	 return false;
 	}
-	
-	
-	
-	
+
+
+	public void frecharge() {
+		 oDriver.findElement(RechargeButton).click();
+		 oExtentTest.log(LogStatus.PASS,"Recharge button clicked");
+		 //CommonLib.sendKeys(oDriver, Amount, "100");
+		 CommonLib.sendKeys(oDriver, Amount, dictionary.get("Recharge_Amount"));
+		 oExtentTest.log(LogStatus.PASS,"entered recharge amount : "+dictionary.get("Recharge_Amount"));
+		 Select Payment_method=new Select(oDriver.findElement(Pmp_dd));
+		 //Payment_method.selectByVisibleText("Cash");
+		 Payment_method.selectByVisibleText(dictionary.get("Recharge_Method"));
+		 oDriver.findElement(submit_recharge).click();
+		 oExtentTest.log(LogStatus.PASS,"recharge of amount : "+dictionary.get("Recharge_Amount")+" sucessfull");	 
+		 
+	}
 	
 	
 	

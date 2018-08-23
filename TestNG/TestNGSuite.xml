@@ -4,9 +4,9 @@
 	<!-- <listeners> <listener class-name="org.uncommons.reportng.HTMLReporter"></listener> 
 		</listeners> -->
 
-	<test name="SearchCustomer" enabled="true">
+	<test name="Recharge" enabled="true">
 		<classes>
-			<class name="com.training.tests.SearchCustomer"></class>
+			<class name="com.training.tests.recharge"></class>
 			<parameter name="BrowserToOpen" value="chrome"></parameter>
 			<parameter name="AppUrl" value="http://brijb05:8083/Demo/DOXCOM.html"></parameter>
 		</classes>

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15634" started-at="2018-08-22T10:31:24Z" finished-at="2018-08-22T10:31:40Z">
+  <suite name="Suite" duration-ms="14503" started-at="2018-08-23T07:20:03Z" finished-at="2018-08-23T07:20:17Z">
     <groups>
     </groups>
-    <test name="SearchCustomer" duration-ms="15634" started-at="2018-08-22T10:31:24Z" finished-at="2018-08-22T10:31:40Z">
-      <class name="com.training.tests.SearchCustomer">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.training.tests.SearchCustomer@464bee09]" name="BeforeSuite" is-config="true" duration-ms="349" started-at="2018-08-22T16:01:24Z" finished-at="2018-08-22T16:01:24Z">
+    <test name="Recharge" duration-ms="14503" started-at="2018-08-23T07:20:03Z" finished-at="2018-08-23T07:20:17Z">
+      <class name="com.training.tests.recharge">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.training.tests.recharge@13deb50e]" name="BeforeSuite" is-config="true" duration-ms="201" started-at="2018-08-23T12:50:02Z" finished-at="2018-08-23T12:50:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="automationSetup(java.lang.String, java.lang.String)[pri:0, instance:com.training.tests.SearchCustomer@464bee09]" name="automationSetup" is-config="true" duration-ms="11099" started-at="2018-08-22T16:01:25Z" finished-at="2018-08-22T16:01:36Z">
+        <test-method status="PASS" signature="automationSetup(java.lang.String, java.lang.String)[pri:0, instance:com.training.tests.recharge@13deb50e]" name="automationSetup" is-config="true" duration-ms="10283" started-at="2018-08-23T12:50:03Z" finished-at="2018-08-23T12:50:13Z">
           <params>
             <param index="0">
               <value>
@@ -27,19 +27,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationSetup -->
-        <test-method status="PASS" signature="verify()[pri:0, instance:com.training.tests.SearchCustomer@464bee09]" name="verify" duration-ms="3374" started-at="2018-08-22T16:01:36Z" finished-at="2018-08-22T16:01:39Z">
+        <test-method status="PASS" signature="verify()[pri:0, instance:com.training.tests.recharge@13deb50e]" name="verify" duration-ms="3075" started-at="2018-08-23T12:50:13Z" finished-at="2018-08-23T12:50:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify -->
-        <test-method status="PASS" signature="automationTeardown()[pri:0, instance:com.training.tests.SearchCustomer@464bee09]" name="automationTeardown" is-config="true" duration-ms="1141" started-at="2018-08-22T16:01:39Z" finished-at="2018-08-22T16:01:40Z">
+        <test-method status="PASS" signature="automationTeardown()[pri:0, instance:com.training.tests.recharge@13deb50e]" name="automationTeardown" is-config="true" duration-ms="1134" started-at="2018-08-23T12:50:16Z" finished-at="2018-08-23T12:50:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationTeardown -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.tests.SearchCustomer@464bee09]" name="afterSuite" is-config="true" duration-ms="365" started-at="2018-08-22T16:01:40Z" finished-at="2018-08-22T16:01:41Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.tests.recharge@13deb50e]" name="afterSuite" is-config="true" duration-ms="218" started-at="2018-08-23T12:50:17Z" finished-at="2018-08-23T12:50:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.training.tests.SearchCustomer -->
-    </test> <!-- SearchCustomer -->
+      </class> <!-- com.training.tests.recharge -->
+    </test> <!-- Recharge -->
   </suite> <!-- Suite -->
 </testng-results>
