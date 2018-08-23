@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="14849" started-at="2018-08-23T11:11:31Z" finished-at="2018-08-23T11:11:45Z">
+  <suite name="Suite" duration-ms="14602" started-at="2018-08-23T15:03:03Z" finished-at="2018-08-23T15:03:18Z">
     <groups>
     </groups>
-    <test name="Recharge" duration-ms="14849" started-at="2018-08-23T11:11:31Z" finished-at="2018-08-23T11:11:45Z">
+    <test name="Recharge" duration-ms="14602" started-at="2018-08-23T15:03:03Z" finished-at="2018-08-23T15:03:18Z">
       <class name="com.training.tests.recharge">
-        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.training.tests.recharge@13deb50e]" name="BeforeSuite" is-config="true" duration-ms="198" started-at="2018-08-23T16:41:30Z" finished-at="2018-08-23T16:41:31Z">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:com.training.tests.recharge@13deb50e]" name="BeforeSuite" is-config="true" duration-ms="194" started-at="2018-08-23T20:33:03Z" finished-at="2018-08-23T20:33:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuite -->
-        <test-method status="PASS" signature="automationSetup(java.lang.String, java.lang.String)[pri:0, instance:com.training.tests.recharge@13deb50e]" name="automationSetup" is-config="true" duration-ms="10554" started-at="2018-08-23T16:41:31Z" finished-at="2018-08-23T16:41:41Z">
+        <test-method status="PASS" signature="automationSetup(java.lang.String, java.lang.String)[pri:0, instance:com.training.tests.recharge@13deb50e]" name="automationSetup" is-config="true" duration-ms="10356" started-at="2018-08-23T20:33:03Z" finished-at="2018-08-23T20:33:14Z">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationSetup -->
-        <test-method status="PASS" signature="verify()[pri:0, instance:com.training.tests.recharge@13deb50e]" name="verify" duration-ms="3164" started-at="2018-08-23T16:41:41Z" finished-at="2018-08-23T16:41:44Z">
+        <test-method status="PASS" signature="verify()[pri:0, instance:com.training.tests.recharge@13deb50e]" name="verify" duration-ms="3088" started-at="2018-08-23T20:33:14Z" finished-at="2018-08-23T20:33:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify -->
-        <test-method status="PASS" signature="automationTeardown()[pri:0, instance:com.training.tests.recharge@13deb50e]" name="automationTeardown" is-config="true" duration-ms="1116" started-at="2018-08-23T16:41:44Z" finished-at="2018-08-23T16:41:45Z">
+        <test-method status="PASS" signature="automationTeardown()[pri:0, instance:com.training.tests.recharge@13deb50e]" name="automationTeardown" is-config="true" duration-ms="1146" started-at="2018-08-23T20:33:17Z" finished-at="2018-08-23T20:33:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- automationTeardown -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.tests.recharge@13deb50e]" name="afterSuite" is-config="true" duration-ms="196" started-at="2018-08-23T16:41:46Z" finished-at="2018-08-23T16:41:46Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.tests.recharge@13deb50e]" name="afterSuite" is-config="true" duration-ms="184" started-at="2018-08-23T20:33:18Z" finished-at="2018-08-23T20:33:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
