@@ -8,7 +8,7 @@
 		<classes>
 			<class name="com.training.tests.recharge"></class>
 			<parameter name="BrowserToOpen" value="chrome"></parameter>
-			<parameter name="AppUrl" value="http://brijb05:8083/Demo/DOXCOM.html"></parameter>
+			<parameter name="AppUrl" value="http://usstlattent01:89/doxcom.html"></parameter>
 		</classes>
 	</test>
 	</suite> 
