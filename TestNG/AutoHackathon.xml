@@ -8,7 +8,7 @@
 		<classes>
 			<class name="app.tests.TestCase1"></class>
 			<parameter name="BrowserToOpen" value="chrome"></parameter>
-			<parameter name="AppUrl" value="http://sunik01v/login"></parameter>
+			<parameter name="AppUrl" value="http://localhost:8080/login"></parameter>
 		</classes>
 	</test>
 	
@@ -16,7 +16,7 @@
 		<classes>
 			<class name="app.tests.TestCase2"></class>
 			<parameter name="BrowserToOpen" value="chrome"></parameter>
-			<parameter name="AppUrl" value="http://sunik01v/login"></parameter>
+			<parameter name="AppUrl" value="http://localhost:8080/login"></parameter>
 		</classes>
 	</test>
 	
@@ -24,7 +24,7 @@
 		<classes>
 			<class name="AutoHackathon.Gui.Com.check"></class>
 			<parameter name="BrowserToOpen" value="chrome"></parameter>
-			<parameter name="AppUrl" value="http://sunik01v/login"></parameter>
+			<parameter name="AppUrl" value="http://localhost:8080/login"></parameter>
 		</classes>
 	</test>
 	
